@@ -32,11 +32,11 @@
                         </tr>
                         <tr>
                             <td>Tipologia veicolo</td>
-                            <td>varchart(25) , NOT NULL, INDEX</td>
+                            <td>varchar(25) , NOT NULL, INDEX</td>
                         </tr>
                         <tr>
                             <td>Marca</td>
-                            <td>varchart(30), NOT NULL, INDEX</td>
+                            <td>varchar(30), NOT NULL, INDEX</td>
                         </tr>
                         <tr>
                             <td>Prima Immatricolazione</td>
@@ -44,19 +44,19 @@
                         </tr>
                         <tr>
                             <td>Modello</td>
-                            <td>varchart(30), NOT NULL, INDEX</td>
+                            <td>varchar(30), NOT NULL, INDEX</td>
                         </tr>
                         <tr>
                             <td>Targa</td>
-                            <td>varchart(7), NULL</td>
+                            <td>varchar(7), NULL</td>
                         </tr>
                         <tr>
                             <td>Motorizzazione /  Cilindrata motore</td>
-                            <td>varchart(10), NOT NULL</td>
+                            <td>varchar(10), NOT NULL</td>
                         </tr>
                         <tr>
                             <td>Tipo di alimentazione</td>
-                            <td>varchart(10), NOT NULL, INDEX</td>
+                            <td>varchar(10), NOT NULL, INDEX</td>
                         </tr>
                         <tr>
                             <td>Potenza motore</td>
@@ -64,7 +64,7 @@
                         </tr>
                         <tr>
                             <td>Tipologia di trazione</td>
-                            <td>varchart(15), NULL,</td>
+                            <td>varchar(15), NULL,</td>
                         </tr>
                         <tr>
                             <td>Posti a sedere</td>
@@ -76,7 +76,7 @@
                         </tr>
                         <tr>
                             <td>Tipo di cambio</td>
-                            <td>varchart(15),NULL, INDEX</td>
+                            <td>varchar(15),NULL, INDEX</td>
                         </tr>
                         <tr>
                             <td>Proprietari precedenti</td>
@@ -88,7 +88,7 @@
                         </tr>
                         <tr>
                             <td>Emissioni</td>
-                            <td>varchart(10), NOT NULL, INDEX</td>
+                            <td>varchar(10), NOT NULL, INDEX</td>
                         </tr>
                     </tbody>
                 </table>
