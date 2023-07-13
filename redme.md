@@ -13,3 +13,4 @@ Email --> VARCHAR()
 Metodo di pagamento --> VARCHAR() || ENUM(bonifico, paypal, postepay...ecc)
 
 **Se non devo fare operazioni aritmetiche sui numeri utilizzo il `varchar()`**
+**UNSIGNED --> Elimina il valore negativo dal campo numerico e quindi radoppia il valore positivo es: -128 a 127 si trasforma in 0 a 255**
